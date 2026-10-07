@@ -97,7 +97,6 @@ The [GitHub Actions workflow](.github/workflows/ci.yml) is configured to run the
 - The output file is overwritten after successful validation, including when the result is empty.
 - Comparison is deterministic and culture-independent; linguistic collation and Unicode normalization are not applied.
 - Input is expected to be UTF-8. All names are held in memory, which is appropriate for approximately 1,000 records.
-- The handout appears to contain a `Vaugh`/`Vaughn` typo. The sample uses `Vaughn Lewis` consistently; sorting never alters spelling.
 
 ## Error handling
 
